@@ -1,0 +1,39 @@
+.tabcont{
+      padding:20px 0px;
+    .tabelement{
+        @include layout(row,space-around,center);
+        img{
+            width:200px;
+            height:200px;
+        }
+        li{list-style-type: none;display: flex;
+         .right{
+             color:$lightgreen;
+         }
+        }
+        a{text-decoration: none;cursor:pointer;color:$black;}
+      }
+
+}
+
+@media (max-width: 900px)
+{
+    .tabcont{
+        padding:0px;
+        .tabf{
+            font-size: .7rem;
+        }
+      .tabelement{
+        @include layout(column-reverse,space-around,center);
+          img{
+              width:200px;
+              height:150px;
+              padding:10px;
+          }
+          li{ font-size: 0.8em;
+          }
+          a{font-size: 1em;}
+        }
+  
+  }
+}

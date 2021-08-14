@@ -1,0 +1,66 @@
+.about{
+    width:90%;
+    margin:10px auto;
+    padding:20px 0px;
+    h2{
+        text-align: center;
+        color:$black;
+        font-family: "fontbold";
+        span{
+           border-bottom:3px solid #00eaa1;
+           width:200px;
+        }
+    }
+    p{
+        color:$black;
+        font-family: 'fontregular';
+        line-height: 35px;
+    }
+}
+.aboutcard{
+    width:90%;
+    margin:10px auto;
+    @include layout(row,space-between,center);
+    .aboutcardimg{
+        width:300px;
+    }
+    h3{
+    color:$lightgreen;
+    font-family: 'fontbold';
+    }
+    p{
+    color:$black;
+    font-family: 'fontregular';
+    line-height: 35px;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+
+
+@media (max-width: 900px)
+{
+    .about{
+        p{
+            font-size: 0.9em;
+            line-height: 30px;
+        }
+    }
+              .aboutcard{
+              @include layout(column,center,space-between);
+              h3{
+                color:$lightgreen;
+                font-family: 'fontbold';
+                font-size: 1em;
+                text-align: center;
+                }
+                p{
+                color:$black;
+                font-family: 'fontregular';
+                line-height: 30px;
+                font-size: .9em;
+                text-justify:initial;
+                }
+              } 
+}

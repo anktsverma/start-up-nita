@@ -1,0 +1,47 @@
+.slider{
+    padding:30px 0px;
+    // background: url('../background/asset7.png');
+    background-size:cover;
+     background-repeat: no-repeat;
+     background-attachment:fixed;
+     background-image: linear-gradient(180deg, red, yellow);
+     
+     
+    h2{
+        text-align: center;
+        color:$white;
+        font-family: "fontbold";
+        span{
+           border-bottom:3px solid #00eaa1;
+           width:200px;
+        }
+    }
+    .carousel{
+        padding:20px 0px;
+    }
+}
+
+.sliderelements{
+    width:600px;
+    height: 400px;
+}
+
+@media (max-width: 900px)
+{
+    .sliderelements{
+        width:100%;
+        height: 250px;
+    }
+    .slider{
+        padding:10px 0px;
+        // background: url('../background/asset7.png');
+        background-size:cover;
+         background-repeat: no-repeat;
+         background-attachment:fixed;
+         background-image: linear-gradient(180deg, red, yellow);
+         .carousel{
+            padding:10px 0px;
+            height:270px;
+        }
+    }
+}

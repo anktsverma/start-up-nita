@@ -1,0 +1,50 @@
+
+
+.navbar{
+    @include layout(row,space-between,center);
+    padding:10px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 100;
+    img{ transition: width 0.5s ease-in;width:150px;cursor:pointer}
+
+    &.active{
+        
+        transition:  0.5s ease-in;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+        
+        // border: 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow: 0px 1px 5px gray;
+        img{ transition: width 0.5s ease-in;width:70px;cursor:pointer}
+    }
+    .menu{
+        @include layout(row,space-between,center);  
+        h3{
+            margin:0 15px;
+            font-family: 'fontregular';
+            color:$black;
+            cursor: pointer;
+            &::after{
+                display:block;
+                content:"";
+                height:2px;
+                transition:width 0.3s ease;
+                width:0;
+                background: #00eaa1;
+            }
+            &:hover::after{
+                width:100%;
+            }
+        }
+    }
+}
+@media (max-width: 900px)
+{
+    .navbar{
+        display: none;
+    }
+}

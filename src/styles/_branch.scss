@@ -1,0 +1,25 @@
+.branch{
+    padding:30px 0px;
+    @include layout(row,center,center);
+    img{
+        max-width:350px;
+        max-height:350px;
+    }
+    .mob{
+        display: none;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .branch{
+        padding:0px;
+        @include layout(column,center,center);
+        .mob{display: flex;}
+        .desk{display: none;}
+        img{
+            max-width:250px;
+            max-height:200px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.activities{
+    padding:30px 0px;
+     img{
+         max-width:300px;
+         max-height:300px;
+     }
+    h2{
+        text-align: center;
+        color:$black;
+        font-family: "fontbold";
+        span{
+           border-bottom:3px solid #00eaa1;
+           width:200px;
+        }
+    }
+    .activitiescont{
+        @include layout(row,space-evenly,center);
+        .downloads{
+            @include layout(column,center,space-between);
+            .downloadsin1{
+                @include layout(row,space-evenly,center);
+                h2{
+                    text-align: center;
+                    color:$lightgreen;
+                    font-family: "fontbold"; 
+                }
+            }
+            .downloadsin2{
+                @include layout(column,center,space-evenly);
+                h3{
+                    text-align: center;
+                    color:$lightgreen;
+                    font-family: "fontbold"; 
+                }
+                button{
+                    padding:20px;
+                    border:none;
+                    background: $lightgreen;
+                    color:$white;
+                    font-family: "fontbold"; 
+                    font-size: 20px;
+                    @include layout(row,center,center);
+                    border-radius: 10px;
+                    box-shadow: 0px 3px 5px #333;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px)
+{
+    .activities{
+        img{
+            max-width:200;
+            max-height:200px;
+        }
+        .activitiescont{
+            @include layout(column,center,space-evenly);
+            .downloads{
+            .downloadsin1{
+                h2{
+                    font-size: 1em;
+                }
+            }
+            .downloadsin2{
+                h3{
+                    font-size: 0.9em;
+                }
+                button{
+                    padding:10px;
+                    border:none;
+                    background: $lightgreen;
+                    color:$white;
+                    font-family: "fontbold"; 
+                    font-size:0.9em;
+                    @include layout(row,center,center);
+                    border-radius: 10px;
+                    box-shadow: 0px 3px 5px #333;
+                }
+            }
+            }
+        }
+    }
+    }

@@ -1,0 +1,51 @@
+.navbarmob{
+    display:none;
+}
+.menumobe{
+    display: none;
+}
+@media (max-width: 900px)
+{
+    .navbarmob{
+        background-color: white;
+        position: fixed;
+        top:0px;
+        width: 100%;
+        padding:0px 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+
+        img{
+            width:100px;
+        }
+       
+    }
+    #menumob{
+        display:flex;
+        height:0px;
+       cursor: pointer;
+       flex-direction: column;
+       text-align: center;
+       position: fixed;
+       top:70px;
+       background-color: white;
+       z-index: 100;
+       width:100%;
+       transition:height 0.5s ease-out;
+    }
+    .menumobe{
+        display: none;
+        text-align: center;
+        align-items:center;
+        justify-content: center;
+        color:#3FA9F5;
+  
+        &:hover{
+           color:$lightgreen;
+        }
+    }
+
+}

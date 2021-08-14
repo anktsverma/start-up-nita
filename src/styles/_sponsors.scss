@@ -1,0 +1,29 @@
+.sponsor{
+    margin:20px 0px;
+    padding:30px 0px;
+    @include layout(column,center,center);
+    span{
+        border-bottom:3px solid #00eaa1;
+        width:200px;
+        color:$black;
+        font-family: 'fontbold';
+     }
+    div{
+        width:80%;
+        margin:0 auto;
+        @include layout(row,center,center);
+        margin:10px 0px;
+        img{
+            width:16%;
+            margin:10px;
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .sponsor{
+        div{
+            width:100%;
+    }
+    }
+}

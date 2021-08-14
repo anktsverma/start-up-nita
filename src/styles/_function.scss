@@ -1,0 +1,20 @@
+$black:#333;
+$lightgreen:#00EAA1;
+$white:#fff;
+
+@mixin layout($fd,$jc,$ai) {
+    display:flex;
+    flex-direction:$fd;
+    justify-content:$jc;
+    align-items: $ai;
+}
+
+@font-face {
+    font-family: 'fontbold';
+    src: local('DMSans-Bold'), url(../fonts/DMSans-Bold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'fontregular';
+    src: local('DMSans-Regular'), url(../fonts/DMSans-Regular.ttf) format('truetype');
+  }
