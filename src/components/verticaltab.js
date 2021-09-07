@@ -85,12 +85,12 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel  value={value} index={0}>
       <div className="tabelement" >
       <ul>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum1</a></li>
-          <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
+          <li><ArrowRight className="right" /><a href="">Under Progress . Will be updated soon !</a></li>
+         {/* <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
           <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum3</a></li>
           <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum4</a></li>
           <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum5</a></li>
-
+  */}
       </ul>
       <img src="assets/asset1.png"></img>
       </div>
@@ -98,12 +98,12 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel value={value} index={1}>
       <div className="tabelement" >
       <ul>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum1</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum3</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum4</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum5</a></li>
-
+      <li><ArrowRight className="right" /><a href="">Under Progress . Will be updated soon !</a></li>
+      {/* <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum3</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum4</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum5</a></li>
+*/}
       </ul>
       <img src="assets/asset2.jpg"></img>
       </div>
@@ -111,12 +111,12 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel value={value} index={2}>
       <div className="tabelement" >
       <ul>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-
+      <li><ArrowRight className="right" /><a href="">Under Progress . Will be updated soon !</a></li>
+      {/* <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum3</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum4</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum5</a></li>
+*/}
       </ul>
       <img src="assets/asset3.jpg"></img>
       </div>
@@ -124,12 +124,12 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel value={value} index={3}>
       <div className="tabelement" >
       <ul>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-          <li><ArrowRight className="right" /><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum</a></li>
-
+      <li><ArrowRight className="right" /><a href="">Under Progress . Will be updated soon !</a></li>
+      {/* <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum2</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum3</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum4</a></li>
+       <li><ArrowRight className="right"/><a href="">Software like Aldus PageMaker including versions of Lorem Ipsum5</a></li>
+*/}
       </ul>
       <img src="assets/asset4.jpg"></img>
       </div>
