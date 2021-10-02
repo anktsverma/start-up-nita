@@ -1,0 +1,72 @@
+.ImpLinks{
+    margin:20px 0px;
+    padding:30px 0px;
+    @include layout(column,center,center);
+    span{
+        border-bottom:3px solid #00eaa1;
+        width:200px;
+        color:$black;
+        font-family: 'fontbold';
+     }
+    div{
+        width:80%;
+        margin:0 auto;
+        @include layout(row,center,center);
+        margin:10px 0px;
+        ul{
+            display: flex;
+            flex-direction: row;
+                align-items: center;
+            li{
+                text-align: center;
+                padding: 5px;
+                
+                &:hover{
+                    color: #00eaa1;
+                }
+                img{
+                    width:100px;
+                    margin:10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .ImpLinks{
+        margin:20px 0px;
+        padding:30px 0px;
+        @include layout(column,center,center);
+        span{
+            border-bottom:3px solid #00eaa1;
+            width:200px;
+            color:$black;
+            font-family: 'fontbold';
+         }
+        div{
+            width:80%;
+            margin:0 auto;
+            @include layout(row,center,center);
+            margin:10px 0px;
+            ul{
+                display: flex;
+                flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                li{
+                    text-align: center;
+                    padding: 5px;
+                    
+                    &:hover{
+                        color: #00eaa1;
+                    }
+                    img{
+                        width:100px;
+                        margin:10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,11 +5,8 @@ const Sponsors=()=>{
        <div className="sponsor" id="sponsor">
            <h2><span>Our Sponsors</span></h2>
            <div >
-               <img src="assets/asset6.png"/>
-               <img src="assets/asset7.png"/>
-               <img src="assets/asset8.png"/>
-               <img src="assets/asset9.png"/>
-               <img src="assets/asset10.png"/>
+             <a href="https://dit.tripura.gov.in/">  <img style={{width:'300px'}} src="assets/sponser1.png"/></a>
+               
            </div>
        </div>
    )

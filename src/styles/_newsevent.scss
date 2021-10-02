@@ -51,7 +51,7 @@
     .newsflag{
         padding:10px 20px;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
-        width:100px;
+        width:150px;
         color: $white;
         font-family: 'fontbold';
         
@@ -60,6 +60,11 @@
         padding:10px 20px;
         color:$black;
         font-family: 'fontregular';
+        a{
+            &:hover{
+                color:#2AAA60;
+            }
+        }
     }
 }
 
@@ -87,6 +92,14 @@
         span{
             font-family: 'fontbold';
         }
+        .para{
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+            width:400px;
+            font-size:13px;
+        }
     }
 }
 }
@@ -105,8 +118,8 @@
             margin:10px 5px;
             .newsflag{
                 padding:5px 5px;
-                font-size: 1em;
-                width:5em;
+                font-size:0.8em;
+                width:7em;
                 
             }
             .newsnews{
@@ -120,11 +133,13 @@
         }
         .eventbar{
             box-shadow: 0px 0px 0px #333;
+            border:solid 1px #1AB5AC;
             margin:10px 5px;
             .eventflag{
                 padding:5px 5px;
                 width:5em;
                 box-shadow: 2px 2px 2px #333;
+               
                 font-size: 0.9em;
                 span{
                     font-size:1em;
@@ -138,6 +153,14 @@
                 span{
                     font-family: 'fontbold';
                     font-size: 1em;
+                }
+                .para{
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 10;
+                    -webkit-box-orient: vertical;
+                    width:230px;
+                    font-size:13px;
                 }
             }
         }

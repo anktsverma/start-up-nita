@@ -1,0 +1,51 @@
+.team{
+    background:#e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+    .teamcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            width:300px;
+            height:300px;
+            background-color:#E99806;
+            border-radius: 10px;
+            border-radius: 58px;
+            background: #e0e0e0;
+            box-shadow:  22px 22px 45px #bababa,
+                         -22px -22px 45px #ffffff;
+                         &:hover{
+                             background:wheat;
+                             transform:scale(1.1);
+                         }
+        img{
+            width:50%;
+            border-radius: 50%;
+            
+        }
+        h2{
+            font-family: 'fontbold';
+        }
+        h4{
+            font-family: 'fontbold';
+        }
+        button{ 
+            font-family: "fontbold";
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow:  20px 20px 60px #5a5a5a,
+             -20px -20px 60px #ffffff;
+             border:none;
+             font-family: 'fontbold';
+             display: flex;
+             flex-direction: row;
+             align-items: center;
+             padding:10px 20px;
+             cursor: pointer;
+        }
+    }
+}

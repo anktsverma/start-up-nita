@@ -6,11 +6,11 @@ const NewsEvent=()=>{
     return(
         <div className="newsevent" id="newsevent">
             <div className="newscont">
-            <h2><RssFeed/><span>News</span></h2>
+            <h2><RssFeed/><span>Policies</span></h2>
             <div className="news">
            
            {NewsData.map((e)=>{
-                   return( <NewsBar key={e.id} flag={e.flag} news={e.news} cName={e.cName}/>
+                   return( <NewsBar key={e.id} flag={e.flag} news={e.news} link={e.link} cName={e.cName}/>
                 )})}
              
                
@@ -21,7 +21,7 @@ const NewsEvent=()=>{
             <h2><SurroundSound/><span>Event</span></h2>
             <div className="news">
             {EventData.map((e)=>{
-                   return( <EventBar key={e.id} date={e.date} month={e.month} topic={e.topic} description={e.description} cName={e.cName}/>
+                   return( <EventBar key={e.id} date={e.date} month={e.month} duration={e.duration} topic={e.topic} description={e.description} cName={e.cName}/>
                 )})}
            
                

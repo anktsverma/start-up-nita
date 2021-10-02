@@ -28,7 +28,7 @@ const Nav=()=>{
                    <h3 className="nav-links"><a href="#newsevent">News & Events</a></h3>
                   <h3 className="nav-links"><a href="#contact">Contact</a></h3>
                   <h3 className="nav-links"><a href="#sponsor">Our Sponsors</a></h3>
-               
+                  <h3 className="nav-links"><a href="#ImpLinks">Important Links</a></h3>
           </div>
        </div>
    )
